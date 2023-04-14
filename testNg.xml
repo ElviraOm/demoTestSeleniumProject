@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Test Selenium Suite">
+
+    <test name="Demo Test">
+        <classes>
+            <class name="test.LoginTest" />
+            <class name="test.ProductTest" />
+            <class name="test.HamburgerMenuTest" />
+            <class name="test.CartTest" />
+            <class name="test.CheckoutTest" />
+        </classes>
+    </test>
+
+</suite>
